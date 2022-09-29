@@ -8,8 +8,10 @@ Time Spent: 0.6 hours
 
 """
 DISCO: 
+You can read a txt file in python by using open("example.txt", "r")
 
 QCC: 
+Are we going to get a txt file with periods, names, and duckies?
 
 """
 
