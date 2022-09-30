@@ -25,4 +25,4 @@ print(occupations)
 
 jobs = {}
 for i in range(1, len(occupations) - 1):
-    
+    jobs[occupations[0][0]] = occupations[0][1]
