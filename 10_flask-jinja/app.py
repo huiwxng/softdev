@@ -1,4 +1,4 @@
-# Clyde 'Thluffy' Sinclair
+# Hui Wang
 # SoftDev
 # Oct 2022
 

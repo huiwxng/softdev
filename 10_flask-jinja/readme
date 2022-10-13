@@ -1,0 +1,4 @@
+#Q0: Removing render_template would return an error when run
+#Q1: Yes localhost:5000/my_foist_template
+#Q2: The first argument is the template file being used and the others are 
+the variables you replace in set template
