@@ -2,4 +2,4 @@
 in the file hierarchy of our project directory
 -html files are served as expected in a webpage
 -files with no extension are downloaded, this probably extends to most 
-or all files that are not .html
+or all files that are not .html 
