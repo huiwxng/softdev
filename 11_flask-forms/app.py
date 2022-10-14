@@ -52,9 +52,9 @@ def authenticate():
     print("***DIAG: request obj ***")
     print(request)
     print("***DIAG: request.args ***")
-    print(request.args)
+    print(request.args) # returns immutable multi dictionary
     #print("***DIAG: request.args['username']  ***")
-    #print(request.args['username'])
+    #print(request.args['username']) #returns the value of the 'username' key
     print("***DIAG: request.headers ***")
     print(request.headers)
     return "Waaaa hooo HAAAH"  #response to a form submission
