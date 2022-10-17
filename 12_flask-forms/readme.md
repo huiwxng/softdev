@@ -1,0 +1,2 @@
+GET request puts the form data into the url and it can be changed by the user in the address bar after submitting the form  
+POST request puts the form data in the hidden request.form dict and can't be modified by the user after submitting the form
