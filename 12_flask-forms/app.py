@@ -2,7 +2,7 @@
 # SoftDev
 # K12 -- flask forms
 # 2022-10-17
-# time spent: 
+# time spent: 0.5 hrs
 
 from flask import Flask             #facilitate flask webserving
 from flask import render_template   #facilitate jinja templating
