@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <!-- 
-  notes-and-code: Hui Wang, Ryan Lau, Jonathan Song
-  SoftDev
-  Oct 2022
+    notes-and-code: Hui Wang, Ryan Lau, Jonathan Song
+    SoftDev
+    K12 -- flask forms
+    2022-10-17
+    time spent: 1 hrs
 
      simple demo of HTML forms via Flask
      
@@ -24,8 +26,26 @@
 
   <body>
     <h1>
+      this was made by team notes-and-code: Hui Wang, Ryan Lau, Jonathan Song
+    </h1>
+    <h1>
       Welcome, {{username}}!
     </h1>
+
+
+
+    <h3>what we learned</h3>
+
+    <p>
+  GET request puts the form data into the url and it can be changed by the user in the address bar after submitting the form  
+  <br>
+  POST request puts the form data in the hidden request.form dict and can't be modified by the user after submitting the form
+    </p>
+
+    <h3>this page was requested with a {{method}} request</h3>
+
+
+    
   </body>
 
 </html>
