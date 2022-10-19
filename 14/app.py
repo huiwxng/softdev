@@ -1,6 +1,8 @@
 # notes-and-code: Hui Wang, Ryan Lau, Jonathan Song
-# SoftDev
-# Oct 2022
+# SoftDev  
+# K14
+# 2022-10-19
+# time spent: 0.5 hrs  
 
 # DEMO 
 # basics of /static folder
