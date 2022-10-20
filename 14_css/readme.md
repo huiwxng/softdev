@@ -1,7 +1,7 @@
 notes-and-code: Hui Wang, Ryan Lau, Jonathan Song  
 SoftDev  
 K14
-2022-10-17  
+2022-10-19
 time spent: 0.5 hrs
 
 When linking a css file to the html file, you need to change the href to the location of the css file, including the folder directory
