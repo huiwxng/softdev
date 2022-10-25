@@ -1,47 +1,31 @@
-# how-to :: DO THE THING
+# how-to :: SQLite3
 ---
 ## Overview
-Why we care, what this will allow us to do, etc...
+SQL/SQLite3 allows to organize and retrieve data efficiently.
 
-### Estimated Time Cost: x.x hrs (round to nearest 0.1)
+### Estimated Time Cost: 1.0 hrs
 
 ### Prerequisites:
 
-- Something you should know beforehand...
-- Something you will need installed beforehand...
+- computer with sqlite3 installed
 
-1. Step blah blah blah, and/or...
-1. Step, with `inline code`, and/or...
-1. Step, with
-    ```
-    generic code block or terminal command
-    ```
-   and/or...
-    ```javascript
-    var foo = "this that JS tho";
-    ```
-   and/or...
-    ```python
-    print("this that Python tho")
-    ```
-   and/or...
-1. Step, with [hyperlink](https://xkcd.com)s...
+1. Open up a Terminal.
+2. Start the sqlite3 shell by running `sqlite3 <DATABASE_NAME>`. If <DATABASE_NAME> does not exist in the folder, it will be crated automatically.
+3. Create a table by running `create table <TABLE_NAME> (<COLUMN_NAME> <DATATYPE>, <COLUMN_NAME> <DATATYPE>, ... );`
+4. Insert data into the table by running `insert into <TABLE_NAME> values(<COLUMN_1_VALUE>, <COLUMN_2_VALUE>, ...);`
+5. To view table data, run `select * from <TABLE_NAME>;`
+6. To view specific data, run `select * from <TABLE_NAME> where <COLUMN_NAME><CONDITION>;`
 
 
 ### Resources
-* thing1
-* thing2
+* [mr. mykolyk's notes on sql/sqlite](https://github.com/stuy-softdev/notes-and-code/tree/main/smpl/k17-18sqlite)
+* [sqlite3 cli docs](https://www.sqlite.org/cli.html)
 
 ---
 
-Accurate as of (last update): 2022-mm-dd
+Accurate as of (last update): 2022-10-24
 
 #### Contributors:  
-Clyde "Thluffy" Sinclair  
-Thundercleese, pd2  
-Buttercup, pd7  
-Blossom, pd7  
-Bubbles, pd7  
-Fake Grimlock, pd8  
-
-_Note: the two spaces after each name are important! ( <--burn after reading)  _
+Ryan Lau, pd2  
+Jonathan Song, pd2  
+Hui Wang, pd2
