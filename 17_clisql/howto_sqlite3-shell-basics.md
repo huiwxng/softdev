@@ -16,7 +16,8 @@ SQL/SQLite3 allows to organize and retrieve data efficiently.
 5. To view table data, run `select * from <TABLE_NAME>;`.
 6. To view specific data, run `select * from <TABLE_NAME> where <COLUMN_NAME><CONDITION>;`.
 7. To delete any unwanted row, run `delete from <TABLE_NAME> where <COLUMN_NAME><CONDITION>;`.
-8. To close the sqlite3 shell, run `.quit` or `ctrl + D` on the keyboard.
+8. To delete an existing table, run `drop table <TABLE_NAME>;`.
+9. To close the sqlite3 shell, run `.quit` or `ctrl + D` on the keyboard.
 
 
 ### Resources
