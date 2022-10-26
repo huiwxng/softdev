@@ -19,10 +19,6 @@ c = db.cursor()               #facilitate db ops -- you will use cursor to trigg
 # < < < INSERT YOUR TEAM'S POPULATE-THE-DB CODE HERE > > >
 with open('courses.csv') as courses:
     dReader = csv.DictReader(courses) # reads the csv file as a csv.DictReader object
-    print(list(reader)) # [{'code': 'systems', 'mark': '75', 'id': '1'}, ...]
-    print(list(reader)) # []
-    print(dReader)
-    print(dReader)
     command = "create table courses (code text, mark int, id int)"
     c.execute(command)
     for row in dReader: # iterate through each row in the csv.DictReader object
