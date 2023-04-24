@@ -116,56 +116,30 @@ const facA = (n) => {
         return 1;
     }
     return n*(facA(n-1));
-  }
-
-let factests = document.getElementById("fac_tests");
-let fibtests = document.getElementById("fib_tests");
-let gcdtests = document.getElementById("gcd_tests");
-
+}
 function fact_test (){
-  console.log(fac(1)); // should be 1
-  console.log(fac(2)); // should be 2
-  console.log(fac(3)); // should be 6
-  console.log(fac(4)); // should be 24
-  console.log(fac(5)); // should be 120
-  factests.innerHTML = 
-  `fac tests:<br>
-  ${fac(1)}<br>
-  ${fac(2)}<br>
-  ${fac(3)}<br>
-  ${fac(4)}<br>
-  ${fac(5)}<br>`
+console.log(fac(1)); // should be 1
+console.log(fac(2)); // should be 2
+console.log(fac(3)); // should be 6
+console.log(fac(4)); // should be 24
+console.log(fac(5)); // should be 120
 }
 
 function fib_test (){
-  console.log(fib(0)); // should be 0
-  console.log(fib(1)); // should be 1
-  console.log(fib(2)); // should be 1
-  console.log(fib(3)); // should be 2
-  console.log(fib(4)); // should be 3
-  fibtests.innerHTML = 
-  `fib tests:<br>
-  ${fib(0)}<br>
-  ${fib(1)}<br>
-  ${fib(2)}<br>
-  ${fib(3)}<br>
-  ${fib(4)}<br>`  
+
+console.log(fib(0)); // should be 0
+console.log(fib(1)); // should be 1
+console.log(fib(2)); // should be 1
+console.log(fib(3)); // should be 2
+console.log(fib(4)); // should be 3
 }
 
 function gcd_test (){
-  console.log(gcd(0, 0)); // should be 0
-  console.log(gcd(1, 10)); // should be 1
-  console.log(gcd(2, 6)); // should be 2
-  console.log(gcd(8, 12)); // should be 4
-  console.log(gcd(15, 9)); // should be 3
-  gcdtests.innerHTML = 
-  `gcd tests:<br>
-  ${gcd(0, 0)}<br>
-  ${gcd(1, 10)}<br>
-  ${gcd(2, 6)}<br>
-  ${gcd(8, 12)}<br>
-  ${gcd(15, 9)}<br>
-  `
+console.log(gcd(0, 0)); // should be 0
+console.log(gcd(1, 10)); // should be 1
+console.log(gcd(2, 6)); // should be 2
+console.log(gcd(8, 12)); // should be 4
+console.log(gcd(15, 9)); // should be 3
 }
 
 var fact_btn = document.getElementById("a");
