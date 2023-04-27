@@ -1,2 +1,2 @@
-bubble
-capture
+bubble: browser does after input
+capture: browser listening for input
